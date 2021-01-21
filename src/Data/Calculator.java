@@ -33,4 +33,14 @@ public class Calculator {
     public double getSubtract(){
        return this.number1 - this.number2;
     }
+
+    public double getMultiplication(){
+        return this.number1 * this.number2;
+    }
+
+    public double getDivision(){
+        return this.number1 / this.number2;
+    }
+
+
 }
